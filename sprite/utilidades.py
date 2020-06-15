@@ -16,3 +16,11 @@ def cargar_sprite(path, color_transparente=None):
         sprite.set_colorkey(color_transparente, pygame.RLEACCEL)
 
     return sprite
+
+
+def crear_rectangulo(cordenada_de_inicio, dimension):
+    return pygame.Rect(cordenada_de_inicio + dimension)
+
+
+def crear_subarea(superficie, rectangulo):
+    return superficie.subsurface(rectangulo)
