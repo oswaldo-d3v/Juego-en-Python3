@@ -1,2 +1,0 @@
-class Animacion():
-    pass
