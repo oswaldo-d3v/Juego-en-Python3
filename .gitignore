@@ -1,0 +1,6 @@
+# .gitignore
+main.py
+src/*
+.vscode/settings.json
+personaje.py
+*/__pycache__/*.pyc
